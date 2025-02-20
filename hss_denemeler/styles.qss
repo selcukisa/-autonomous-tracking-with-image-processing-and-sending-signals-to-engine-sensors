@@ -1,0 +1,51 @@
+QMainWindow {
+    background-color: #2E3440;
+}
+
+QLabel#teamname {
+    color: #88C0D0;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+QLabel {
+    color: #ECEFF4;
+    font-size: 16px;
+}
+
+QPushButton {
+    background-color: #5E81AC;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+QPushButton:hover {
+    background-color: #81A1C1;
+}
+
+QPushButton:pressed {
+    background-color: #4C566A;
+}
+
+QSlider::groove:horizontal {
+    background: #4C566A;
+    height: 10px;
+    border-radius: 5px;
+}
+
+QSlider::handle:horizontal {
+    background: #88C0D0;
+    border: 2px solid #5E81AC;
+    width: 16px;
+    height: 16px;
+    margin: -5px 0;
+    border-radius: 8px;
+}
+
+QLabel#camera {
+    border: 2px solid #4C566A;
+    background-color: #000000;
+}
